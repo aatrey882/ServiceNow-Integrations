@@ -10,23 +10,23 @@
         <copied_from/>
         <copied_from_name/>
         <description>Get the list of the status report for any given transit type&lt;strong&gt; London Transit API&lt;/strong&gt;</description>
-        <ih_action>false</ih_action>
+        <ih_action>true</ih_action>
         <internal_name>list_line_status</internal_name>
         <label_cache>[{"name":"{{action.fi}}","label":"action➛Fi","type":"action","ref":""},{"name":"{{action.modes}}","label":"action➛Modes","type":"action","ref":""},{"name":"{{step[bf20c147-4f98-40a6-a665-55f16d857133].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[3ab0bcce-de68-43cd-88ec-ffd8f1f70462].statuses}}","label":"step➛Script step➛statuses","type":"step","ref":""},{"name":"{{step[3ab0bcce-de68-43cd-88ec-ffd8f1f70462].variable1}}","label":"step➛Script step➛variable1","type":"step","ref":""},{"name":"{{step[3ab0bcce-de68-43cd-88ec-ffd8f1f70462].statuses.name}}","label":"step➛Script step➛statuses➛name","type":"step","ref":""},{"name":"{{step[3ab0bcce-de68-43cd-88ec-ffd8f1f70462].statuses.status}}","label":"step➛Script step➛statuses➛status","type":"step","ref":""},{"name":"{{step[3ab0bcce-de68-43cd-88ec-ffd8f1f70462].statuses.status.name}}","label":"step➛Script step➛statuses➛status➛name","type":"step","ref":""},{"name":"{{step[3ab0bcce-de68-43cd-88ec-ffd8f1f70462].statuses.status.description}}","label":"step➛Script step➛statuses➛status➛description","type":"step","ref":""},{"name":"{{step[3ab0bcce-de68-43cd-88ec-ffd8f1f70462].statuses.status.reason}}","label":"step➛Script step➛statuses➛status➛reason","type":"step","ref":""},{"name":"{{step[3ab0bcce-de68-43cd-88ec-ffd8f1f70462].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[3ab0bcce-de68-43cd-88ec-ffd8f1f70462].statuses.statuses_child2}}","label":"step➛Script step➛statuses➛statuses_child2","type":"step","ref":""},{"name":"{{step[3ab0bcce-de68-43cd-88ec-ffd8f1f70462].statuses.description}}","label":"step➛Script step➛statuses➛description","type":"step","ref":""},{"name":"{{step[3ab0bcce-de68-43cd-88ec-ffd8f1f70462].statuses.statuses_child3}}","label":"step➛Script step➛statuses➛statuses_child3","type":"step","ref":""},{"name":"{{step[3ab0bcce-de68-43cd-88ec-ffd8f1f70462].statuses.reason}}","label":"step➛Script step➛statuses➛reason","type":"step","ref":""},{"name":"{{step[3ab0bcce-de68-43cd-88ec-ffd8f1f70462].statuses.status.status_child}}","label":"step➛Script step➛statuses➛status➛status_child","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>92b3b5ba2f3c5810ac02a55df699b662</latest_snapshot>
+        <latest_snapshot>6e0ce1eb2f301c10ac02a55df699b65d</latest_snapshot>
         <master_snapshot>26b3b5ba2f3c5810ac02a55df699b6d4</master_snapshot>
         <name>List Line Status</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-13 16:17:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>62ec73702f741410ac02a55df699b6c3</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>List Line Status</sys_name>
         <sys_overrides/>
         <sys_package display_value="London Transit Spoke" source="x_412697_london_tr">44a4f7f82f341410ac02a55df699b66d</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="London Transit Spoke">44a4f7f82f341410ac02a55df699b66d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_62ec73702f741410ac02a55df699b6c3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-19 20:46:30</sys_updated_on>
+        <sys_updated_on>2020-05-21 18:47:30</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -677,7 +677,7 @@ var statuses = [];
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=status,child_name=status,child_type=object,child_type_label=Object,child_uiUniqueId=77e84f46-3774-4812-8724-77a8787e45c0,co_type_name=FDd223bd7a003c581058cbcdaf08c8331b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=1a348d85-7029-493f-81fd-39ba3aae838f</attributes>
+        <attributes>child_label=status,child_name=status,child_type=object,child_type_label=Object,child_uiUniqueId=8c83b8b5-5485-4dd5-9b3a-f7de1fbc871d,co_type_name=FDd223bd7a003c581058cbcdaf08c8331b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=1a348d85-7029-493f-81fd-39ba3aae838f</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -735,14 +735,14 @@ var statuses = [];
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-19 08:55:48</sys_created_on>
         <sys_id>84715d322ff85810ac02a55df699b690</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="London Transit Spoke">44a4f7f82f341410ac02a55df699b66d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-19 20:46:30</sys_updated_on>
+        <sys_updated_on>2020-05-21 18:47:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -770,10 +770,10 @@ var statuses = [];
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-19 08:14:25</sys_created_on>
         <sys_id>79f7c57a2fb85810ac02a55df699b6bd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="London Transit Spoke">44a4f7f82f341410ac02a55df699b66d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-19 08:14:25</sys_updated_on>
+        <sys_updated_on>2020-05-21 18:47:20</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=79f7c57a2fb85810ac02a55df699b6bd"/>
     <sys_element_mapping action="delete_multiple" query="id=79f7c57a2fb85810ac02a55df699b6bd"/>
@@ -783,11 +783,11 @@ var statuses = [];
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-19 08:14:25</sys_created_on>
         <sys_id>b1f7c57a2fb85810ac02a55df699b6c3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-19 08:14:25</sys_updated_on>
+        <sys_updated_on>2020-05-21 18:47:20</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
-        <value>Available modes : {{action.modes}}</value>
+        <value>Available modes are  : {{action.modes}}</value>
     </sys_element_mapping>
     <sys_hub_action_input action="delete_multiple" query="model=62ec73702f741410ac02a55df699b6c3^sys_idNOT IN6df7c57a2fb85810ac02a55df699b6b2"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -876,7 +876,7 @@ var statuses = [];
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=status,child_name=status,child_type=object,child_type_label=Object,child_uiUniqueId=77e84f46-3774-4812-8724-77a8787e45c0,co_type_name=FD9e43fd7a6e3c581060707ee6a8ccdbda,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=3ab0bcce-de68-43cd-88ec-ffd8f1f70462,sourceType=step,sourceUiUniqueId=1a348d85-7029-493f-81fd-39ba3aae838f,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=fabd9acf-611d-4d23-ada2-1188f6f0b937</attributes>
+        <attributes>child_label=status,child_name=status,child_type=object,child_type_label=Object,child_uiUniqueId=223d09e1-542f-4bc7-8396-258b37a4c2d9,co_type_name=FD9e43fd7a6e3c581060707ee6a8ccdbda,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=3ab0bcce-de68-43cd-88ec-ffd8f1f70462,sourceType=step,sourceUiUniqueId=1a348d85-7029-493f-81fd-39ba3aae838f,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=fabd9acf-611d-4d23-ada2-1188f6f0b937</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -936,14 +936,14 @@ var statuses = [];
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-19 08:58:10</sys_created_on>
         <sys_id>a2f115722ff85810ac02a55df699b60c</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="London Transit Spoke">44a4f7f82f341410ac02a55df699b66d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-19 20:46:30</sys_updated_on>
+        <sys_updated_on>2020-05-21 18:47:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1565,7 +1565,7 @@ var statuses = [];
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=status,child_name=status,child_type=object,child_type_label=Object,child_uiUniqueId=77e84f46-3774-4812-8724-77a8787e45c0,co_type_name=FDd223bd7a003c581058cbcdaf08c8331b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=1a348d85-7029-493f-81fd-39ba3aae838f</attributes>
+        <attributes>child_label=status,child_name=status,child_type=object,child_type_label=Object,child_uiUniqueId=8c83b8b5-5485-4dd5-9b3a-f7de1fbc871d,co_type_name=FDd223bd7a003c581058cbcdaf08c8331b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=1a348d85-7029-493f-81fd-39ba3aae838f</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1623,14 +1623,14 @@ var statuses = [];
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-19 08:55:48</sys_created_on>
         <sys_id>84715d322ff85810ac02a55df699b690</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="London Transit Spoke">44a4f7f82f341410ac02a55df699b66d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-19 20:46:30</sys_updated_on>
+        <sys_updated_on>2020-05-21 18:47:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1658,10 +1658,10 @@ var statuses = [];
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-19 08:14:25</sys_created_on>
         <sys_id>79f7c57a2fb85810ac02a55df699b6bd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="London Transit Spoke">44a4f7f82f341410ac02a55df699b66d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-19 08:14:25</sys_updated_on>
+        <sys_updated_on>2020-05-21 18:47:20</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=79f7c57a2fb85810ac02a55df699b6bd"/>
     <sys_element_mapping action="delete_multiple" query="id=79f7c57a2fb85810ac02a55df699b6bd"/>
@@ -1671,11 +1671,11 @@ var statuses = [];
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-19 08:14:25</sys_created_on>
         <sys_id>b1f7c57a2fb85810ac02a55df699b6c3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-19 08:14:25</sys_updated_on>
+        <sys_updated_on>2020-05-21 18:47:20</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
-        <value>Available modes : {{action.modes}}</value>
+        <value>Available modes are  : {{action.modes}}</value>
     </sys_element_mapping>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_62ec73702f741410ac02a55df699b6c3^sys_idNOT INfdf7c57a2fb85810ac02a55df699b6ba"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -1691,7 +1691,7 @@ var statuses = [];
         <sys_created_on>2020-05-19 08:14:24</sys_created_on>
         <sys_id>fdf7c57a2fb85810ac02a55df699b6ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Modes</sys_name>
         <sys_package display_value="London Transit Spoke" source="x_412697_london_tr">44a4f7f82f341410ac02a55df699b66d</sys_package>
         <sys_policy/>
         <sys_scope display_value="London Transit Spoke">44a4f7f82f341410ac02a55df699b66d</sys_scope>
@@ -1715,7 +1715,7 @@ var statuses = [];
         <sys_created_on>2020-05-19 08:58:10</sys_created_on>
         <sys_id>f2f115722ff85810ac02a55df699b612</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>statuses</sys_name>
         <sys_package display_value="London Transit Spoke" source="x_412697_london_tr">44a4f7f82f341410ac02a55df699b66d</sys_package>
         <sys_policy/>
         <sys_scope display_value="London Transit Spoke">44a4f7f82f341410ac02a55df699b66d</sys_scope>
@@ -2362,7 +2362,7 @@ var statuses = [];
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=status,child_name=status,child_type=object,child_type_label=Object,child_uiUniqueId=8e6009ed-ab05-47e7-809b-4f03a11b6d03,co_type_name=FDf6b3f5ba693c581036444b06c3aebc13,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=1a348d85-7029-493f-81fd-39ba3aae838f</attributes>
+        <attributes>child_label=status,child_name=status,child_type=object,child_type_label=Object,child_uiUniqueId=8c83b8b5-5485-4dd5-9b3a-f7de1fbc871d,co_type_name=FD070ce1ebb3301c10d181140fe2ac7cf7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=1a348d85-7029-493f-81fd-39ba3aae838f</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2420,14 +2420,14 @@ var statuses = [];
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-19 11:25:38</sys_created_on>
         <sys_id>b6b3f5ba2f3c5810ac02a55df699b615</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="London Transit Spoke">44a4f7f82f341410ac02a55df699b66d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-19 11:25:38</sys_updated_on>
+        <sys_updated_on>2020-05-21 18:47:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2455,10 +2455,10 @@ var statuses = [];
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-19 11:25:37</sys_created_on>
         <sys_id>66b3b5ba2f3c5810ac02a55df699b6dc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="London Transit Spoke">44a4f7f82f341410ac02a55df699b66d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-19 11:25:37</sys_updated_on>
+        <sys_updated_on>2020-05-21 18:47:30</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=66b3b5ba2f3c5810ac02a55df699b6dc"/>
     <sys_element_mapping action="delete_multiple" query="id=66b3b5ba2f3c5810ac02a55df699b6dc"/>
@@ -2468,11 +2468,11 @@ var statuses = [];
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-19 11:25:37</sys_created_on>
         <sys_id>e6b3b5ba2f3c5810ac02a55df699b6ec</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-19 11:25:37</sys_updated_on>
+        <sys_updated_on>2020-05-21 18:47:30</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
-        <value>Available modes : {{action.modes}}</value>
+        <value>Available modes are  : {{action.modes}}</value>
     </sys_element_mapping>
     <sys_hub_action_input action="delete_multiple" query="model=26b3b5ba2f3c5810ac02a55df699b6d4^sys_idNOT IN22b3b5ba2f3c5810ac02a55df699b6d5"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
@@ -2561,7 +2561,7 @@ var statuses = [];
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=status,child_name=status,child_type=object,child_type_label=Object,child_uiUniqueId=3dce4ea6-dd0e-4730-8664-6cc610f80543,co_type_name=FD3eb3f5bade3c5810e46d407365b7a921,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=3ab0bcce-de68-43cd-88ec-ffd8f1f70462,sourceType=step,sourceUiUniqueId=1a348d85-7029-493f-81fd-39ba3aae838f,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=fabd9acf-611d-4d23-ada2-1188f6f0b937</attributes>
+        <attributes>child_label=status,child_name=status,child_type=object,child_type_label=Object,child_uiUniqueId=223d09e1-542f-4bc7-8396-258b37a4c2d9,co_type_name=FD4b0c25eb05301c1009d32b5c8008ac03,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,sourceId=3ab0bcce-de68-43cd-88ec-ffd8f1f70462,sourceType=step,sourceUiUniqueId=1a348d85-7029-493f-81fd-39ba3aae838f,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=fabd9acf-611d-4d23-ada2-1188f6f0b937</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2621,14 +2621,14 @@ var statuses = [];
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-19 11:25:38</sys_created_on>
         <sys_id>3eb3f5ba2f3c5810ac02a55df699b623</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="London Transit Spoke">44a4f7f82f341410ac02a55df699b66d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-19 11:25:38</sys_updated_on>
+        <sys_updated_on>2020-05-21 18:47:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3210,7 +3210,7 @@ var statuses = [];
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=status,child_name=status,child_type=object,child_type_label=Object,child_uiUniqueId=8e6009ed-ab05-47e7-809b-4f03a11b6d03,co_type_name=FDf6b3f5ba693c581036444b06c3aebc13,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=1a348d85-7029-493f-81fd-39ba3aae838f</attributes>
+        <attributes>child_label=status,child_name=status,child_type=object,child_type_label=Object,child_uiUniqueId=8c83b8b5-5485-4dd5-9b3a-f7de1fbc871d,co_type_name=FD070ce1ebb3301c10d181140fe2ac7cf7,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=1a348d85-7029-493f-81fd-39ba3aae838f</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -3268,14 +3268,14 @@ var statuses = [];
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-19 11:25:38</sys_created_on>
         <sys_id>b6b3f5ba2f3c5810ac02a55df699b615</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="London Transit Spoke">44a4f7f82f341410ac02a55df699b66d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-19 11:25:38</sys_updated_on>
+        <sys_updated_on>2020-05-21 18:47:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3303,10 +3303,10 @@ var statuses = [];
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-19 11:25:37</sys_created_on>
         <sys_id>66b3b5ba2f3c5810ac02a55df699b6dc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="London Transit Spoke">44a4f7f82f341410ac02a55df699b66d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-19 11:25:37</sys_updated_on>
+        <sys_updated_on>2020-05-21 18:47:30</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=66b3b5ba2f3c5810ac02a55df699b6dc"/>
     <sys_element_mapping action="delete_multiple" query="id=66b3b5ba2f3c5810ac02a55df699b6dc"/>
@@ -3316,11 +3316,11 @@ var statuses = [];
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-19 11:25:37</sys_created_on>
         <sys_id>e6b3b5ba2f3c5810ac02a55df699b6ec</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-05-19 11:25:37</sys_updated_on>
+        <sys_updated_on>2020-05-21 18:47:30</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_a03fea9bc712220061f553c6f09763b1</table>
-        <value>Available modes : {{action.modes}}</value>
+        <value>Available modes are  : {{action.modes}}</value>
     </sys_element_mapping>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_26b3b5ba2f3c5810ac02a55df699b6d4^sys_idNOT INa2b3b5ba2f3c5810ac02a55df699b6da"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -3336,7 +3336,7 @@ var statuses = [];
         <sys_created_on>2020-05-19 11:25:37</sys_created_on>
         <sys_id>a2b3b5ba2f3c5810ac02a55df699b6da</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Modes</sys_name>
         <sys_package display_value="London Transit Spoke" source="x_412697_london_tr">44a4f7f82f341410ac02a55df699b66d</sys_package>
         <sys_policy/>
         <sys_scope display_value="London Transit Spoke">44a4f7f82f341410ac02a55df699b66d</sys_scope>
@@ -3360,7 +3360,7 @@ var statuses = [];
         <sys_created_on>2020-05-19 11:25:38</sys_created_on>
         <sys_id>76b3f5ba2f3c5810ac02a55df699b629</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>statuses</sys_name>
         <sys_package display_value="London Transit Spoke" source="x_412697_london_tr">44a4f7f82f341410ac02a55df699b66d</sys_package>
         <sys_policy/>
         <sys_scope display_value="London Transit Spoke">44a4f7f82f341410ac02a55df699b66d</sys_scope>
