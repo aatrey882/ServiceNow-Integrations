@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>responsetextxml2881205257</name>
+        <namespace>TransportforLondonUnifiedAPIv1</namespace>
+        <scope_name>44a4f7f82f341410ac02a55df699b66d</scope_name>
+        <serialized_content>{"TransportforLondonUnifiedAPIv1:responsetextxml2881205257":{"$COCollectionField":[{"responsetextxml2881205257":{"date":"String","severity":"String","vehicles":[{"vehicles":{"type":"String"}}],"location":"String","lon":"Number","borough":"String","id":"Integer","casualties":[{"casualties":{"mode":"String","severity":"String","ageBand":"String","class":"String","age":"Integer"}}],"lat":"Number"}}],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-19 12:03:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>447c7d722f7c5810ac02a55df699b6f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>responsetextxml2881205257</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="London Transit Spoke" source="x_412697_london_tr">44a4f7f82f341410ac02a55df699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">44a4f7f82f341410ac02a55df699b66d</sys_scope>
+        <sys_update_name>sys_complex_object_447c7d722f7c5810ac02a55df699b6f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:03:41</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

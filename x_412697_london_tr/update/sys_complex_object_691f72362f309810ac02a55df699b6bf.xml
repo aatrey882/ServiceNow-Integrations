@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDa51f72362030981096eda7adbb6bc7bf</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>44a4f7f82f341410ac02a55df699b66d</scope_name>
+        <serialized_content>{"FlowDesigner:FDa51f72362030981096eda7adbb6bc7bf":{"$COCollectionField":[{"Mode":{"IsScheduledService":"String","IsScheduledService.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IsScheduledService\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"59878ebd-7407-45c6-8ecf-635eece582d8\"}"},"IsFarePaying":"String","IsFarePaying.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IsFarePaying\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"85e0819c-8f00-4b44-9e22-fc2b55381aff\"}"},"IsTflService":"String","IsTflService.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"IsTflService\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"4eb5d86b-6578-40b6-9297-ad8f8df68729\"}"},"ModeName":"String","ModeName.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"ModeName\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"846773e1-5037-427e-8e81-4a6fde3be360\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"e750e485-724d-486a-8e48-bf4705f18113\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Modes\",\"mandatory\":\"false\",\"child_name\":\"Mode\",\"uiUniqueId\":\"70ab1cae-7c19-468d-8c22-b6437de57f81\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDa51f72362030981096eda7adbb6bc7bf\",\"child_label\":\"Mode\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"f2bb60b6-4ffe-4ad8-9011-103438351336\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"76a81687-825f-472b-ba5e-02da0c68b93f\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDa51f72362030981096eda7adbb6bc7bf.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"e750e485-724d-486a-8e48-bf4705f18113\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Modes\",\"mandatory\":\"false\",\"child_name\":\"Mode\",\"uiUniqueId\":\"70ab1cae-7c19-468d-8c22-b6437de57f81\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDa51f72362030981096eda7adbb6bc7bf\",\"child_label\":\"Mode\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"f2bb60b6-4ffe-4ad8-9011-103438351336\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"76a81687-825f-472b-ba5e-02da0c68b93f\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-19 16:54:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>691f72362f309810ac02a55df699b6bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDa51f72362030981096eda7adbb6bc7bf</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="London Transit Spoke" source="x_412697_london_tr">44a4f7f82f341410ac02a55df699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">44a4f7f82f341410ac02a55df699b66d</sys_scope>
+        <sys_update_name>sys_complex_object_691f72362f309810ac02a55df699b6bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-19 16:54:52</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

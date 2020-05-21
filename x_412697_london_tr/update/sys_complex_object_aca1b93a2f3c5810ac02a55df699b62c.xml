@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDe8a1b93aa13c5810e45778a41359b02c</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>44a4f7f82f341410ac02a55df699b66d</scope_name>
+        <serialized_content>{"FlowDesigner:FDe8a1b93aa13c5810e45778a41359b02c":{"$COCollectionField":[{"status":{"reason":"String","reason.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"reason\",\"mandatory\":\"true\",\"order\":\"4\",\"max_length\":\"0\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"name\",\"mandatory\":\"true\",\"order\":\"2\",\"max_length\":\"0\"}"},"description":"String","description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"description\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"statuses\",\"mandatory\":\"true\",\"child_name\":\"status\",\"uiUniqueId\":\"1a348d85-7029-493f-81fd-39ba3aae838f\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDe8a1b93aa13c5810e45778a41359b02c\",\"child_label\":\"status\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"4ba99fff-997f-4c18-9af9-d4eadd30a3b8\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDe8a1b93aa13c5810e45778a41359b02c.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"statuses\",\"mandatory\":\"true\",\"child_name\":\"status\",\"uiUniqueId\":\"1a348d85-7029-493f-81fd-39ba3aae838f\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDe8a1b93aa13c5810e45778a41359b02c\",\"child_label\":\"status\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"4ba99fff-997f-4c18-9af9-d4eadd30a3b8\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-19 11:16:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aca1b93a2f3c5810ac02a55df699b62c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDe8a1b93aa13c5810e45778a41359b02c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="London Transit Spoke" source="x_412697_london_tr">44a4f7f82f341410ac02a55df699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">44a4f7f82f341410ac02a55df699b66d</sys_scope>
+        <sys_update_name>sys_complex_object_aca1b93a2f3c5810ac02a55df699b62c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-19 11:16:28</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_openapi_operation">
+    <sys_openapi_operation action="INSERT_OR_UPDATE">
+        <complex_object_ids>cc7c7d722f7c5810ac02a55df699b6ec,887c7d722f7c5810ac02a55df699b6ee,cc7c7d722f7c5810ac02a55df699b6ea,447c7d722f7c5810ac02a55df699b6f0</complex_object_ids>
+        <deprecated>false</deprecated>
+        <http_method>get</http_method>
+        <name>Gets the bike point with the given id.</name>
+        <openapi display_value="Transport for London Unified API - v1">c07c7d722f7c5810ac02a55df699b6e8</openapi>
+        <path>/BikePoint/{id}</path>
+        <serialized_operation>{"fName":"Gets the bike point with the given id.","fOperationId":"BikePoint_Get","fPath":"/BikePoint/{id}","fHttpMethod":"GET","fDeprecated":false,"fResponses":[{"fStatusCode":"200","fDescription":"OK","fContents":[{"fMediaType":"application/json","fSchema":{"fName":"responseapplicationjson1798512020","fReferencedName":"#/components/schemas/Tfl.Api.Presentation.Entities.Place","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}},{"fMediaType":"text/json","fSchema":{"fName":"responsetextjson7222171346","fReferencedName":"#/components/schemas/Tfl.Api.Presentation.Entities.Place","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}},{"fMediaType":"application/xml","fSchema":{"fName":"responseapplicationxml1350054255","fReferencedName":"#/components/schemas/Tfl.Api.Presentation.Entities.Place","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}},{"fMediaType":"text/xml","fSchema":{"fName":"responsetextxml0276273203","fReferencedName":"#/components/schemas/Tfl.Api.Presentation.Entities.Place","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}}],"fHeaders":[]}],"fParameters":[{"fName":"id","fDescription":"A bike point id (a list of ids can be obtained from the above BikePoint call)","fRequired":true,"fDeprecated":false,"fAllowEmptyValue":false,"fAllowReserved":false,"fParameterType":"path","fExplode":false,"fStyle":"simple","fContents":[{"fSchema":{"fName":"id9935798875","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fType":"string","fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"string"}}]}]}</serialized_operation>
+        <sys_class_name>sys_openapi_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-19 12:03:41</sys_created_on>
+        <sys_id>487cbd722f7c5810ac02a55df699b604</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gets the bike point with the given id.</sys_name>
+        <sys_package display_value="London Transit Spoke" source="x_412697_london_tr">44a4f7f82f341410ac02a55df699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="London Transit Spoke">44a4f7f82f341410ac02a55df699b66d</sys_scope>
+        <sys_update_name>sys_openapi_operation_487cbd722f7c5810ac02a55df699b604</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-19 12:03:41</sys_updated_on>
+    </sys_openapi_operation>
+</record_update>
